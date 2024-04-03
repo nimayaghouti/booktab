@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App.jsx';
 
-import './costume.scss';
+import './scss/costume.scss';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import '../node_modules/vazirmatn/Vazirmatn-font-face.css';
 
