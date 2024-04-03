@@ -1,32 +1,31 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.scss';
-import { FaApple } from 'react-icons/fa';
+
+import RootLayout from './pages/Root';
+import HomePage from './pages/Home';
+import CategoriesPage from './pages/Categories';
+import BooksPage from './pages/Books';
+import ContactPage from './pages/Contact';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <HomePage /> },
+      { path: '/categories', element: <CategoriesPage /> },
+      { path: '/books', element: <BooksPage /> },
+      { path: '/contact', element: <ContactPage /> },
+    ],
+  },
+]);
 
 function App() {
-  const initialTheme = localStorage.getItem('theme') || 'light';
-  const [isDarkTheme, setIsDarkTheme] = useState(initialTheme === 'dark');
-
-  // Update theme in local storage whenever it changes
-  useEffect(() => {
-    localStorage.setItem('theme', isDarkTheme ? 'dark' : 'light');
-    document.body.setAttribute('data-bs-theme', isDarkTheme ? 'dark' : 'light');
-  }, [isDarkTheme]);
-
-  const toggleTheme = () => {
-    setIsDarkTheme(prevTheme => !prevTheme);
-  };
-
   return (
-    <div>
-      <button onClick={toggleTheme} className="btn btn-primary">
-        Toggle Theme
-      </button>
-      <div className="h1 w-50 mx-auto my-6 text-center text-primary">
-        hello world
-      </div>
-      <div className="h1 w-50 mx-auto my-6 text-center">سلام دنیا</div>
-      <FaApple className="text-primary" size={70} />
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
