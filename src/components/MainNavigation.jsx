@@ -10,11 +10,11 @@ function MainNavigation() {
   const { isDarkTheme, toggleTheme } = useTheme();
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bg-opacity-75 shadow p-1">
       <div className="container flex-row-reverse">
-        <div className="flex-grow-1 d-flex justify-content-between justify-content-lg-end">
+        <div className="flex-grow-1 d-flex justify-content-between justify-content-lg-end align-items-center">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler border-0 h-50 p-0 me-1"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
@@ -24,23 +24,23 @@ function MainNavigation() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <NavLink to="/" className="navbar-brand">
-            <span className=" fs-5 text-primary">BOOKTAB</span>
-            <img src={logo} alt="Booktab Logo" width={60} />
+            <span className="fs-6 text-primary">BOOKTAB</span>
+            <img src={logo} alt="Booktab Logo" width={50} />
           </NavLink>
         </div>
         <div
-          className="offcanvas offcanvas-end bg-dark"
+          className="offcanvas offcanvas-end bg-dark bg-opacity-75"
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
+          <button
+            type="button"
+            className="btn-close btn-close-white mt-4 ms-3 me-auto d-lg-none"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
           <ul className="offcanvas-body navbar-nav gap-4">
-            <button
-              type="button"
-              className={`btn-close d-lg-none ${classes.setColor}`}
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
             <li className="nav-item">
               <NavLink
                 to="/"
@@ -85,14 +85,14 @@ function MainNavigation() {
             <li className="nav-item">
               <button
                 onClick={toggleTheme}
-                className={`btn fs-5 ${
+                className={`btn fs-6 py-2 ${
                   isDarkTheme ? 'btn-secondary' : 'btn-light'
                 } rounded-circle`}
               >
                 {isDarkTheme ? (
-                  <IoMdSunny size={18} />
+                  <IoMdSunny size={16} />
                 ) : (
-                  <BsMoonStarsFill size={18} />
+                  <BsMoonStarsFill size={16} />
                 )}
               </button>
             </li>
