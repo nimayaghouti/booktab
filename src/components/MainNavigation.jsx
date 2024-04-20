@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useTheme } from '../store/theme-context';
 
-import classes from './MainNavigation.module.scss';
+// import classes from './MainNavigation.module.scss';
 import { BsMoonStarsFill } from 'react-icons/bs';
 import { IoMdSunny } from 'react-icons/io';
 import logo from '../assets/images/logo.png';
@@ -10,7 +10,10 @@ function MainNavigation() {
   const { isDarkTheme, toggleTheme } = useTheme();
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bg-opacity-75 shadow p-1">
+    <nav
+      className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow p-1"
+      style={{ '--bs-bg-opacity': 0.9 }}
+    >
       <div className="container flex-row-reverse">
         <div className="flex-grow-1 d-flex justify-content-between justify-content-lg-end align-items-center">
           <button
@@ -29,7 +32,8 @@ function MainNavigation() {
           </NavLink>
         </div>
         <div
-          className="offcanvas offcanvas-end bg-dark bg-opacity-75"
+          className="offcanvas offcanvas-end bg-dark"
+          style={{ '--bs-bg-opacity': 0.9 }}
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
