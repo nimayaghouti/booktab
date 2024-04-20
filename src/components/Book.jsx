@@ -1,8 +1,28 @@
 /* eslint-disable react/prop-types */
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import CartContext from '../store/cart/cart-context';
 
 const Book = ({ book }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
+
+  const cartCtx = useContext(CartContext);
+
+  const addToCartHandler = () => {
+    cartCtx.addItem({
+      id: 1,
+      title: 'To Kill a Mockingbird',
+      author: 'Harper Lee',
+      publication_year: 1960,
+      genre: ['Fiction', 'Classic'],
+      description:
+        'A classic novel depicting racial injustice in the American South.',
+      cover_image: 'https://fakeimg.pl/667x1000/cc6600',
+    });
+  };
+
+  const clearCartHandler = () => {
+    cartCtx.deleteItem();
+  };
 
   const handleImageLoaded = () => {
     setImageLoaded(true);
@@ -26,6 +46,19 @@ const Book = ({ book }) => {
         <a href="#" className="btn btn-primary">
           مشاهده
         </a>
+        <button
+          className="btn btn-outline-primary rounded-circle"
+          onClick={addToCartHandler}
+        >
+          +
+        </button>
+
+        <button
+          className="btn btn-outline-danger rounded-1"
+          onClick={clearCartHandler}
+        >
+          delete
+        </button>
       </div>
     </div>
   );
