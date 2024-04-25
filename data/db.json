@@ -2,453 +2,353 @@
   "books": [
     {
       "id": 1,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
+      "title": "کشتن مرغ مقلد",
+      "author": "هارپر لی",
       "publication_year": 1960,
-      "genre": ["Fiction", "Classic"],
-      "description": "A classic novel depicting racial injustice in the American South.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["داستانی", "کلاسیک"],
+      "description": "رمانی کلاسیک که بی عدالتی نژادی را در جنوب آمریکا به تصویر می کشد.",
+      "cover_image": "/cover/to-kill-a-mockingbird.jpg",
+      "price": 292000
     },
     {
       "id": 2,
       "title": "1984",
-      "author": "George Orwell",
+      "author": "جرج اورول",
       "publication_year": 1949,
-      "genre": ["Dystopian", "Science Fiction"],
-      "description": "A dystopian novel portraying a totalitarian society.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["پادآرمان‌شهری", "علمی تخیلی"],
+      "description": "یک داستان تخیلی که نشان می‌دهد چگونه یک جامعه کنترل‌شده به طور کامل توسط حکومت یا نظامی خاص توصیف می‌شود.",
+      "cover_image": "/cover/1984.jpg",
+      "price": 160000
     },
     {
       "id": 3,
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
+      "title": "غرور و تعصب",
+      "author": "جین آستین",
       "publication_year": 1813,
-      "genre": ["Classic", "Romance"],
-      "description": "A classic novel exploring themes of love, marriage, and social norms.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["کلاسیک", "عاشقانه"],
+      "description": "رمانی کلاسیک که مضامین عشق، ازدواج و هنجارهای اجتماعی را بررسی می کند.",
+      "cover_image": "/cover/pride-and-prejudice.jpg",
+      "price": 150000
     },
     {
       "id": 4,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
+      "title": "گتسبی بزرگ",
+      "author": "اسکات فیتزجرالد",
       "publication_year": 1925,
-      "genre": ["Fiction", "Classic"],
-      "description": "A tale of the American Dream, wealth, and love during the Roaring Twenties.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["داستانی", "کلاسیک"],
+      "description": "داستانی از رویای آمریکایی، ثروت، و عشق در طول دهه بیست میلادی.",
+      "cover_image": "/cover/the-great-gatsby.jpg",
+      "price": 162000
     },
     {
       "id": 5,
-      "title": "Moby-Dick",
-      "author": "Herman Melville",
+      "title": "موبی دیک",
+      "author": "هرمان ملویل",
       "publication_year": 1851,
-      "genre": ["Fiction", "Adventure"],
-      "description": "The epic tale of Captain Ahab's obsession with the white whale.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["داستانی", "ماجراجویی"],
+      "description": "داستان ملواني به نام اسماعیل كه مي‌خواهد از يك نهنگ سفيد انتقام بگيرد.",
+      "cover_image": "/cover/moby-dick.jpg",
+      "price": 146000
     },
     {
       "id": 6,
-      "title": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
+      "title": "ارباب حلقه ها",
+      "author": "جی آر آر تالکین",
       "publication_year": 1954,
-      "genre": ["Fantasy", "Adventure"],
-      "description": "An epic fantasy saga about the quest to destroy the One Ring.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["فانتری", "ماجراجویی"],
+      "description": "یک حماسه فانتزی در مورد تلاش برای از بین بردن یک حلقه.",
+      "cover_image": "/cover/the-lord-of-the-rings.jpg",
+      "price": 330000
     },
     {
       "id": 7,
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "publication_year": 1951,
-      "genre": ["Fiction", "Coming-of-age"],
-      "description": "A classic coming-of-age novel following Holden Caulfield's journey.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "هابیت",
+      "author": "جی آر آر تالکین",
+      "publication_year": 1937,
+      "genre": ["فانتری", "ماجراجویی"],
+      "description": "پیش درآمد ارباب حلقه ها، که به سفر بیلبو بگینز می پردازد.",
+      "cover_image": "/cover/the-hobbit.jpg",
+      "price": 180000
     },
     {
       "id": 8,
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "publication_year": 1937,
-      "genre": ["Fantasy", "Adventure"],
-      "description": "The prequel to The Lord of the Rings, following Bilbo Baggins' journey.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "جنگ و صلح",
+      "author": "لئو تولستوی",
+      "publication_year": 1869,
+      "genre": ["داستانی تاریخی", "حماسی"],
+      "description": "اثری به یاد ماندنی که وقایع جامعه روسیه در دوران ناپلئون را به تصویر می کشد.",
+      "cover_image": "/cover/war-and-peace.jpg",
+      "price": 500000
     },
     {
       "id": 9,
-      "title": "One Hundred Years of Solitude",
-      "author": "Gabriel Garcia Marquez",
-      "publication_year": 1967,
-      "genre": ["Magical Realism", "Literary Fiction"],
-      "description": "A multi-generational saga of the Buendía family in the fictional town of Macondo.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "ادیسه",
+      "author": "هومر",
+      "publication_year": "قرن هشتم قبل از میلاد",
+      "genre": ["حماسی", "اساطیری"],
+      "description": "ادبیات حماسی یونان باستان که سفر ده ساله ادیسه را به خانه پس از جنگ تروا بازگو می کند.",
+      "cover_image": "/cover/odyssey.jpg",
+      "price": 284000
     },
     {
       "id": 10,
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "publication_year": 1869,
-      "genre": ["Historical Fiction", "Epic"],
-      "description": "A monumental work depicting the events of Russian society during the Napoleonic era.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "برادران کارامازوف",
+      "author": "فئودور داستایوفسکی",
+      "publication_year": 1880,
+      "genre": ["کلاسیک", "فلسفی"],
+      "description": "رمانی پیچیده که مضامین معنویت، اخلاق و طبیعت انسانی را بررسی می کند.",
+      "cover_image": "/cover/the-brothers-karamazov.jpg",
+      "price": 617000
     },
     {
       "id": 11,
-      "title": "The Odyssey",
-      "author": "Homer",
-      "publication_year": "8th century BCE",
-      "genre": ["Epic", "Mythology"],
-      "description": "An ancient Greek epic poem recounting Odysseus' ten-year journey home after the Trojan War.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "جنایت و مکافات",
+      "author": "فئودور داستایوفسکی",
+      "publication_year": 1866,
+      "genre": ["کلاسیک", "روانشناختی"],
+      "description": "یک تریلر روانشناختی حول محور گناه، وجدان و رستگاری.",
+      "cover_image": "/cover/crime-and-punishment.jpg",
+      "price": 470000
     },
     {
       "id": 12,
-      "title": "The Divine Comedy",
-      "author": "Dante Alighieri",
-      "publication_year": "1320",
-      "genre": ["Epic", "Poetry"],
-      "description": "An epic poem that follows the journey of the soul through Hell, Purgatory, and Heaven.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "تصویر دوریان گری",
+      "author": "اسکار وایلد",
+      "publication_year": 1890,
+      "genre": ["گوتیک", "فلسفی"],
+      "description": "رمانی درباره مردی که پرتره‌اش پیر می‌شود و جوانی و زیبایی‌اش را حفظ می‌کند.",
+      "cover_image": "/cover/the-picture-of-dorian-gray.jpg",
+      "price": 229500
     },
     {
       "id": 13,
-      "title": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
-      "publication_year": 1880,
-      "genre": ["Classic", "Philosophical Fiction"],
-      "description": "A complex novel exploring themes of spirituality, morality, and human nature.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "دنیای قشنگ نو",
+      "author": "آلدوس هاکسلی",
+      "publication_year": 1932,
+      "genre": ["پادآرمان‌شهری", "علمی تخیلی"],
+      "description": "چشم اندازی پادآرمان‌شهری از جامعه ای در آینده که احساسات انسان‌ها را کنترل می‌کند و هرگونه احساس منفی را ممنوع می‌کند.",
+      "cover_image": "/cover/brave-new-world.jpg",
+      "price": 156000
     },
     {
       "id": 14,
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "publication_year": 1866,
-      "genre": ["Classic", "Psychological Fiction"],
-      "description": "A psychological thriller revolving around guilt, conscience, and redemption.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "کنت مونت کریستو",
+      "author": "الکساندر دوما",
+      "publication_year": 1844,
+      "genre": ["ماجراجویی", "داستانی تاریخی"],
+      "description": "رمانی ماجراجویی از انتقام، عشق و رستگاری که در اوایل قرن نوزدهم اتفاق می‌افتد.",
+      "cover_image": "/cover/the-conut-of-monte-cristo.jpg",
+      "price": 165000
     },
     {
       "id": 15,
-      "title": "The Picture of Dorian Gray",
-      "author": "Oscar Wilde",
-      "publication_year": 1890,
-      "genre": ["Gothic", "Philosophical Fiction"],
-      "description": "A novel about a man whose portrait ages while he retains his youth and beauty.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "آنا کارنینا",
+      "author": "لئو تولستوی",
+      "publication_year": 1877,
+      "genre": ["کلاسیک", "عاشقانه"],
+      "description": "یک داستان عاشقانه غم انگیز در پس زمینه جامعه عالی روسیه.",
+      "cover_image": "/cover/anna-karenina.jpg",
+      "price": 446000
     },
     {
       "id": 16,
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "publication_year": 1932,
-      "genre": ["Dystopian", "Science Fiction"],
-      "description": "A dystopian vision of a future society obsessed with pleasure and conformity.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "کیمیاگر",
+      "author": "پائولو کوئیلو",
+      "publication_year": 1988,
+      "genre": ["داستانی", "فلسفی"],
+      "description": "رمانی فلسفی درباره سفر یک پسر چوپان برای یافتن افسانه شخصی اش.",
+      "cover_image": "/cover/the-alchemist.jpg",
+      "price": 209000
     },
     {
       "id": 17,
-      "title": "The Count of Monte Cristo",
-      "author": "Alexandre Dumas",
-      "publication_year": 1844,
-      "genre": ["Adventure", "Historical Fiction"],
-      "description": "An adventure novel of revenge, love, and redemption set in the early 19th century.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "ماجراهای هاکلبری فین",
+      "author": "مارک تواین",
+      "publication_year": 1884,
+      "genre": ["ماجراجویی", "هجو"],
+      "description": "رمانی طنز که به سفر هاک فین به پایین رودخانه می سی سی پی می پردازد.",
+      "cover_image": "/cover/the-adventures-of-huckleberry-finn.jpg",
+      "price": 246000
     },
     {
       "id": 18,
-      "title": "Anna Karenina",
-      "author": "Leo Tolstoy",
-      "publication_year": 1877,
-      "genre": ["Classic", "Romance"],
-      "description": "A tragic love story set against the backdrop of Russian high society.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "ایلیاد",
+      "author": "هومر",
+      "publication_year": "قرن هشتم قبل از میلاد",
+      "genre": ["حماسی", "اساطیری"],
+      "description": "شعری حماسی از یونان باستان در مورد جنگ تروا و قهرمان آشیل.",
+      "cover_image": "/cover/iliad.jpg",
+      "price": 403000
     },
     {
       "id": 19,
-      "title": "The Alchemist",
-      "author": "Paulo Coelho",
-      "publication_year": 1988,
-      "genre": ["Fiction", "Philosophical"],
-      "description": "A philosophical novel about a shepherd boy's journey to find his personal legend.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "دن کیشوت",
+      "author": "میگل سروانتس",
+      "publication_year": 1605,
+      "genre": ["کلاسیک", "هجو"],
+      "description": "رمانی طنز درباره یک شوالیه فریب خورده و صاحب وفادارش، سانچو پانزا.",
+      "cover_image": "/cover/don-quixote.jpg",
+      "price": 189000
     },
     {
       "id": 20,
-      "title": "The Adventures of Huckleberry Finn",
-      "author": "Mark Twain",
-      "publication_year": 1884,
-      "genre": ["Adventure", "Satire"],
-      "description": "A satirical novel following Huck Finn's journey down the Mississippi River.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "فرانکنشتاین",
+      "author": "مری شلی",
+      "publication_year": 1818,
+      "genre": ["گوتیک", "علمی تخیلی"],
+      "description": "رمانی درباره خلق یک هیولا و عواقب دخالت در کار خدا.",
+      "cover_image": "/cover/frankenstein.jpg",
+      "price": 102000
     },
     {
       "id": 21,
-      "title": "The Iliad",
-      "author": "Homer",
-      "publication_year": "8th century BCE",
-      "genre": ["Epic", "Mythology"],
-      "description": "An ancient Greek epic poem about the Trojan War and the hero Achilles.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "آلیس در سرزمین عجایب",
+      "author": "لوئیس کارول",
+      "publication_year": 1865,
+      "genre": ["فانتری", "ادبیات کودکان"],
+      "description": "داستانی عجیب در مورد دختری به نام آلیس که وارد دنیایی جادویی می شود.",
+      "cover_image": "/cover/alice’s-adventures-in-wonderland.jpg",
+      "price": 85500
     },
     {
       "id": 22,
-      "title": "The Lord of the Rings",
-      "author": "J.R.R. Tolkien",
-      "publication_year": 1954,
-      "genre": ["Fantasy", "Adventure"],
-      "description": "A thrilling epic about the quest to destroy the One Ring and save Middle-earth from the dark lord Sauron.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "کتاب دزد",
+      "author": "مارکوس زوساک",
+      "publication_year": 2005,
+      "genre": ["داستانی تاریخی", "جنگ"],
+      "description": "داستانی به روایت مرگ، از دختری که در آلمان نازی زندگی می کند.",
+      "cover_image": "/cover/the-book-thief.jpg",
+      "price": 250000
     },
     {
       "id": 23,
-      "title": "Don Quixote",
-      "author": "Miguel de Cervantes",
-      "publication_year": 1605,
-      "genre": ["Classic", "Satire"],
-      "description": "A satirical novel about a deluded knight and his faithful squire, Sancho Panza.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "سلاخ خانه شماره پنج",
+      "author": "کورت ونه گارت",
+      "publication_year": 1969,
+      "genre": ["هجو", "علمی تخیلی"],
+      "description": "رمانی ضد جنگ که داستان علمی تخیلی و طنز سیاه را در هم می آمیزد.",
+      "cover_image": "/cover/slaughterhouse-five.jpg",
+      "price": 126000
     },
     {
       "id": 24,
-      "title": "Frankenstein",
-      "author": "Mary Shelley",
-      "publication_year": 1818,
-      "genre": ["Gothic", "Science Fiction"],
-      "description": "A novel about the creation of a monster and the consequences of playing god.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "فارنهایت 451",
+      "author": "ری بردبری",
+      "publication_year": 1953,
+      "genre": ["پادآرمان‌شهری", "علمی تخیلی"],
+      "description": "رمانی پادآرمان‌شهری که جامعه ای در آینده را به تصویر می کشد که در آن کتاب ممنوع است.",
+      "cover_image": "/cover/fahrenheit-451.jpg",
+      "price": 122000
     },
     {
       "id": 25,
-      "title": "Alice's Adventures in Wonderland",
-      "author": "Lewis Carroll",
-      "publication_year": 1865,
-      "genre": ["Fantasy", "Children's Literature"],
-      "description": "A whimsical tale about a girl named Alice who falls into a magical world.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "سالار مگس ها",
+      "author": "ویلیام گلدینگ",
+      "publication_year": 1954,
+      "genre": ["پادآرمان‌شهری", "روانشناختی"],
+      "description": "رمانی درباره گروهی از پسران بریتانیایی که در جزیره‌ای خالی از سکنه سرگردان شده‌اند.",
+      "cover_image": "/cover/lord-of-the-flies.jpg",
+      "price": 220000
     },
     {
       "id": 26,
-      "title": "The Little Prince",
-      "author": "Antoine de Saint-Exupéry",
-      "publication_year": 1943,
-      "genre": ["Fable", "Children's Literature"],
-      "description": "A philosophical novella about a young prince's journey through the universe.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "راهنمای کهکشان برای اتواستاپ زن ها",
+      "author": "داگلاس آدامز",
+      "publication_year": 1979,
+      "genre": ["علمی تخیلی", "کمدی"],
+      "description": "مجموعه ای علمی تخیلی کمدی درباره ماجراجویی های ناگوار آرتور دنت",
+      "cover_image": "/cover/the-hitchhiker-s-guide-to-the-galaxy.jpg",
+      "price": 162000
     },
     {
       "id": 27,
-      "title": "The Book Thief",
-      "author": "Markus Zusak",
-      "publication_year": 2005,
-      "genre": ["Historical Fiction", "War"],
-      "description": "A story of a girl living in Nazi Germany, narrated by Death.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "داستان دو شهر",
+      "author": "چارلز دیکنز",
+      "publication_year": 1859,
+      "genre": ["داستانی تاریخی", "کلاسیک"],
+      "description": "رمانی تاریخی که در جریان انقلاب فرانسه اتفاق می‌افتد و مضامین فداکاری و رستاخیز را بررسی می‌کند.",
+      "cover_image": "/cover/a-tale-of-two-cities.jpg",
+      "price": 170000
     },
     {
       "id": 28,
-      "title": "Slaughterhouse-Five",
-      "author": "Kurt Vonnegut",
-      "publication_year": 1969,
-      "genre": ["Satire", "Science Fiction"],
-      "description": "An anti-war novel that mixes science fiction and dark humor.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "ماجراهای نارنیا",
+      "author": "سی اس لوئیس",
+      "publication_year": 1950,
+      "genre": ["فانتری", "ادبیات کودکان"],
+      "description": "مجموعه ای از رمان های فانتزی در سرزمین جادویی نارنیا.",
+      "cover_image": "/cover/the-chronicles-of-narnia.jpg",
+      "price": 675000
     },
     {
       "id": 29,
-      "title": "The Grapes of Wrath",
-      "author": "John Steinbeck",
-      "publication_year": 1939,
-      "genre": ["Historical Fiction", "Social Commentary"],
-      "description": "A novel about the plight of migrant workers during the Great Depression.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "نام گل",
+      "author": "اومبرتو اکو",
+      "publication_year": 1980,
+      "genre": ["داستانی تاریخی", "رازآلود"],
+      "description": "رمان معمایی قرون وسطایی که در یک صومعه ایتالیایی اتفاق می افتد.",
+      "cover_image": "/cover/the-name-of-the-rose.jpg",
+      "price": 405000
     },
     {
       "id": 30,
-      "title": "Fahrenheit 451",
-      "author": "Ray Bradbury",
-      "publication_year": 1953,
-      "genre": ["Dystopian", "Science Fiction"],
-      "description": "A dystopian novel depicting a future society where books are banned.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "بادبادک باز",
+      "author": "خالد حسینی",
+      "publication_year": 2003,
+      "genre": ["داستانی تاریخی", "درام"],
+      "description": "رمانی درباره دوستی، رستگاری و تأثیر جنگ در افغانستان.",
+      "cover_image": "/cover/the-kite-runner.jpg",
+      "price": 199500
     },
     {
       "id": 31,
-      "title": "The Lord of the Flies",
-      "author": "William Golding",
-      "publication_year": 1954,
-      "genre": ["Dystopian", "Psychological Fiction"],
-      "description": "A novel about a group of British boys stranded on an uninhabited island.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "ستون های زمین",
+      "author": "کن فالت",
+      "publication_year": 1989,
+      "genre": ["داستانی تاریخی", "ماجراجویی"],
+      "description": "رمان تاریخی حماسی در قرن دوازدهم انگلستان، حول محور ساختن یک کلیسای جامع.",
+      "cover_image": "/cover/the-pillars-of-the-earth.jpg",
+      "price": 81000
     },
     {
       "id": 32,
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "author": "Douglas Adams",
-      "publication_year": 1979,
-      "genre": ["Science Fiction", "Comedy"],
-      "description": "A comedic science fiction series about the misadventures of Arthur Dent.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "سایه باد",
+      "author": "کارلوس روئیث ثافون",
+      "publication_year": 2001,
+      "genre": ["رازآلود", "گوتیک"],
+      "description": "رمانی رازآلود که در بارسلون پس از جنگ اتفاق می افتد و حول محور کتابی فراموش شده و نویسنده آن می چرخد.",
+      "cover_image": "/cover/the-shadow-of-the-wind.jpg",
+      "price": 522000
     },
     {
       "id": 33,
-      "title": "A Tale of Two Cities",
-      "author": "Charles Dickens",
-      "publication_year": 1859,
-      "genre": ["Historical Fiction", "Classic"],
-      "description": "A historical novel set during the French Revolution, exploring themes of sacrifice and resurrection.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "بر باد رفته",
+      "author": "مارگارت میچل",
+      "publication_year": 1936,
+      "genre": ["داستانی تاریخی", "عاشقانه"],
+      "description": "رمانی تاریخی در طول جنگ داخلی آمریکا، حول محور اسکارلت اوهارا.",
+      "cover_image": "/cover/gone-with-the-wind.jpg",
+      "price": 765000
     },
     {
       "id": 34,
-      "title": "The Chronicles of Narnia",
-      "author": "C.S. Lewis",
-      "publication_year": 1950,
-      "genre": ["Fantasy", "Children's Literature"],
-      "description": "A series of fantasy novels set in the magical land of Narnia.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "title": "دراکولا",
+      "author": "برام استوکر",
+      "publication_year": 1897,
+      "genre": ["گوتیک", "ترسناک"],
+      "description": "یک رمان ترسناک گوتیک درباره تلاش کنت دراکولا خون آشام برای نقل مکان به انگلستان.",
+      "cover_image": "/cover/dracula.jpg",
+      "price": 405000
     },
     {
       "id": 35,
-      "title": "The Handmaid's Tale",
-      "author": "Margaret Atwood",
-      "publication_year": 1985,
-      "genre": ["Dystopian", "Feminist Fiction"],
-      "description": "A dystopian novel set in a totalitarian society where women are subjugated.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 36,
-      "title": "The Name of the Rose",
-      "author": "Umberto Eco",
-      "publication_year": 1980,
-      "genre": ["Historical Fiction", "Mystery"],
-      "description": "A medieval mystery novel set in an Italian monastery.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 37,
-      "title": "The Trial",
-      "author": "Franz Kafka",
-      "publication_year": 1925,
-      "genre": ["Absurdist Fiction", "Existential"],
-      "description": "A surreal novel exploring themes of guilt, law, and justice.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 38,
-      "title": "The Kite Runner",
-      "author": "Khaled Hosseini",
-      "publication_year": 2003,
-      "genre": ["Historical Fiction", "Drama"],
-      "description": "A novel about friendship, redemption, and the impact of war in Afghanistan.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 39,
-      "title": "The Pillars of the Earth",
-      "author": "Ken Follett",
-      "publication_year": 1989,
-      "genre": ["Historical Fiction", "Adventure"],
-      "description": "An epic historical novel set in 12th-century England, centered around the construction of a cathedral.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 40,
-      "title": "The Shadow of the Wind",
-      "author": "Carlos Ruiz Zafón",
-      "publication_year": 2001,
-      "genre": ["Mystery", "Gothic"],
-      "description": "A mystery novel set in post-war Barcelona, revolving around a forgotten book and its author.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 41,
-      "title": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "publication_year": 1911,
-      "genre": ["Children's Literature", "Classic"],
-      "description": "A classic children's novel about a young girl who discovers a hidden garden.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 42,
-      "title": "The Giver",
-      "author": "Lois Lowry",
-      "publication_year": 1993,
-      "genre": ["Dystopian", "Young Adult"],
-      "description": "A dystopian novel about a society with strict control over emotions and memories.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 43,
-      "title": "The Metamorphosis",
-      "author": "Franz Kafka",
-      "publication_year": 1915,
-      "genre": ["Absurdist Fiction", "Existential"],
-      "description": "A novella about a man who wakes up one morning transformed into a giant insect.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 44,
-      "title": "Gone with the Wind",
-      "author": "Margaret Mitchell",
-      "publication_year": 1936,
-      "genre": ["Historical Fiction", "Romance"],
-      "description": "A historical novel set during the American Civil War, centered around Scarlett O'Hara.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 45,
-      "title": "The Wind in the Willows",
-      "author": "Kenneth Grahame",
-      "publication_year": 1908,
-      "genre": ["Children's Literature", "Fantasy"],
-      "description": "A children's novel about the adventures of anthropomorphic animals.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 46,
-      "title": "Dracula",
-      "author": "Bram Stoker",
-      "publication_year": 1897,
-      "genre": ["Gothic", "Horror"],
-      "description": "A Gothic horror novel about the vampire Count Dracula's attempt to move to England.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 47,
-      "title": "The Call of the Wild",
-      "author": "Jack London",
-      "publication_year": 1903,
-      "genre": ["Adventure", "Nature"],
-      "description": "An adventure novel about a domestic dog's life in the wilds of the Yukon.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 48,
-      "title": "The Stand",
-      "author": "Stephen King",
+      "title": "ابلیس",
+      "author": "استیون کینگ",
       "publication_year": 1978,
-      "genre": ["Horror", "Post-Apocalyptic"],
-      "description": "A post-apocalyptic horror novel about a deadly pandemic and its aftermath.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 49,
-      "title": "The Color Purple",
-      "author": "Alice Walker",
-      "publication_year": 1982,
-      "genre": ["Fiction", "Historical"],
-      "description": "A novel about the life of African-American women in the Southern United States.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-    },
-    {
-      "id": 50,
-      "title": "The Silmarillion",
-      "author": "J.R.R. Tolkien",
-      "publication_year": 1977,
-      "genre": ["Fantasy", "Mythopoeia"],
-      "description": "A collection of mythopoeic stories about the history of Middle-earth.",
-      "cover_image": "https://fakeimg.pl/667x1000/cc6600"
+      "genre": ["ترسناک", "پساآخرالزمانی"],
+      "description": "یک رمان ترسناک پسا آخرالزمانی درباره یک بیماری همه گیر مرگبار و عواقب آن.",
+      "cover_image": "/cover/the-stand.jpg",
+      "price": 250000
     }
   ]
 }

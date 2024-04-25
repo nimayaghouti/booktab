@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { useTheme } from '../store/theme-context';
+import { useTheme } from '../store/ThemeContext';
 
 // import classes from './MainNavigation.module.scss';
 import { BsMoonStarsFill } from 'react-icons/bs';
