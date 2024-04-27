@@ -2,6 +2,8 @@
 import { useState, useContext } from 'react';
 import CartContext from '../store/CartContext';
 
+import { FaShoppingCart } from 'react-icons/fa';
+
 const Book = ({ book }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
@@ -25,10 +27,13 @@ const Book = ({ book }) => {
   };
 
   return (
-    <div className="card" style={{ maxWidth: '21rem', margin: '0 auto' }}>
+    <div
+      className="card shadow"
+      style={{ maxWidth: '21rem', margin: '0 auto' }}
+    >
       <img
         src={book['cover_image']}
-        className={`card-img-top img-fluid ${
+        className={`card-img-top img-fluid my-bg ${
           !imageLoaded && 'placeholder col-12'
         }`}
         alt="..."
@@ -36,19 +41,25 @@ const Book = ({ book }) => {
         onLoad={handleImageLoaded}
       />
       <div className="card-body">
-        <h4 className="card-title">{book.title}</h4>
+        <h4 className="card-title">
+          {book.title.length > 17
+            ? book.title.substring(0, 17) + '...'
+            : book.title}
+        </h4>
         <h5 className="card-text">{book.author}</h5>
-        <p className="card-text">{book.price}</p>
+        <p className="card-text">{book.price.toLocaleString('fa-IR')} تومان</p>
         {/* <p className="card-text">{book.genre.join(' - ')}</p> */}
-        <a href="#" className="btn btn-primary">
-          مشاهده
-        </a>
-        <button
-          className="btn btn-outline-primary rounded-circle"
-          onClick={addToCartHandler}
-        >
-          +
-        </button>
+        <div className="d-flex justify-content-between">
+          <a href="#" className="btn btn-primary text-white">
+            مشاهده
+          </a>
+          <button
+            className="btn btn-outline-primary align-self-end"
+            onClick={addToCartHandler}
+          >
+            افزودن <FaShoppingCart />
+          </button>
+        </div>
       </div>
     </div>
   );

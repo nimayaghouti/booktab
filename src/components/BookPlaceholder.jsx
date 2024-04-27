@@ -1,6 +1,10 @@
 const BookPlaceholder = () => {
   return (
-    <div className="card overflow-hidden" aria-hidden="true">
+    <div
+      className="card overflow-hidden"
+      aria-hidden="true"
+      style={{ maxWidth: '21rem', margin: '0 auto' }}
+    >
       <div className="placeholder-glow">
         <div className="placeholder col-12" style={{ height: '15rem' }}></div>
       </div>

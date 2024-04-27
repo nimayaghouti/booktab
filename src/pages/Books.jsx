@@ -16,8 +16,7 @@ const Books = () => {
             return (
               <div
                 key={i}
-                className="col-lg-3 col-md-4 col-sm-6 py-1"
-                style={{ maxWidth: '21rem' }}
+                className="col-xl-3 col-lg-4 col-md-6 col-sm-6 py-3 justify-content-center"
               >
                 <BookPlaceholder />
               </div>
@@ -52,7 +51,7 @@ const Books = () => {
         {books.map(book => (
           <div
             key={book.id}
-            className="col-lg-3 col-md-4 col-sm-6 py-1 justify-content-center"
+            className="col-xl-3 col-lg-4 col-md-6 col-sm-6 py-3 justify-content-center"
           >
             <Book book={book} />
           </div>

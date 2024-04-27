@@ -19,4 +19,13 @@ $spacers: (
   8: $spacer * 12,
 ) !default;
 
+.btn-outline-primary {
+  --bs-btn-hover-color: #fff !important;
+}
+
+.my-bg {
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px);
+  background-size: 10px 10px;
+}
+
 @import 'bootstrap/scss/bootstrap';
