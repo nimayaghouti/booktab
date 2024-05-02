@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 import { useLoaderData, json, Link } from 'react-router-dom';
 import { FaArrowLeft } from 'react-icons/fa';
