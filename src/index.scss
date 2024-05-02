@@ -1,0 +1,15 @@
+a:hover > .arrow {
+  animation: slide 2s ease-in-out infinite;
+  margin-right: 3px;
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(6px, 0);
+  }
+}

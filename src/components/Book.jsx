@@ -3,6 +3,7 @@ import { useState, useContext } from 'react';
 import CartContext from '../store/CartContext';
 
 import { FaShoppingCart } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Book = ({ book }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -50,9 +51,9 @@ const Book = ({ book }) => {
         <p className="card-text">{book.price.toLocaleString('fa-IR')} تومان</p>
         {/* <p className="card-text">{book.genre.join(' - ')}</p> */}
         <div className="d-flex justify-content-between">
-          <a href="#" className="btn btn-primary text-white">
+          <Link to={book.id} className="btn btn-primary text-white">
             مشاهده
-          </a>
+          </Link>
           <button
             className="btn btn-outline-primary align-self-end"
             onClick={addToCartHandler}
