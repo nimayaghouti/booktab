@@ -10,25 +10,56 @@ const CartContext = createContext({
 });
 
 const cartReducer = (state, action) => {
-  switch (action.type) {
-    case 'ADD_ITEM':
-      return {
-        ...state,
-        cart: [...state.cart, action.payload],
+  if (action.type === 'ADD_ITEM') {
+    const existingItemIndex = state.cart.findIndex(
+      item => item.id === action.item.id
+    );
+
+    const updatedCart = [...state.cart];
+
+    if (existingItemIndex > -1) {
+      const existingItem = state.cart[existingItemIndex];
+      const updatedItem = {
+        ...existingItem,
+        quantity: existingItem.quantity + 1,
       };
-    case 'REMOVE_ITEM':
-      return {
-        ...state,
-        cart: state.cart.filter(item => item.id !== action.payload),
-      };
-    case 'CLEAR_CART':
-      return {
-        ...state,
-        cart: [],
-      };
-    default:
-      return state;
+      updatedCart[existingItemIndex] = updatedItem;
+    } else {
+      updatedCart.push({ ...action.item, quantity: 1 });
+    }
+
+    return { ...state, cart: updatedCart };
   }
+
+  if (action.type === 'REMOVE_ITEM') {
+    const existingCartItemIndex = state.cart.findIndex(
+      item => item.id === action.id
+    );
+    const existingCartItem = state.cart[existingCartItemIndex];
+
+    const updatedCart = [...state.cart];
+
+    if (existingCartItem.quantity === 1) {
+      updatedCart.splice(existingCartItemIndex, 1);
+    } else {
+      const updatedItem = {
+        ...existingCartItem,
+        quantity: existingCartItem.quantity - 1,
+      };
+      updatedCart[existingCartItemIndex] = updatedItem;
+    }
+
+    return { ...state, cart: updatedCart };
+  }
+
+  if (action.type === 'CLEAR_CART') {
+    return {
+      ...state,
+      cart: [],
+    };
+  }
+
+  return state;
 };
 
 const initialState = { cart: JSON.parse(localStorage.getItem('cart')) || [] };
@@ -42,11 +73,11 @@ export const CartProvider = ({ children }) => {
   }, [state.cart]);
 
   const addItem = item => {
-    dispatch({ type: 'ADD_ITEM', payload: item });
+    dispatch({ type: 'ADD_ITEM', item });
   };
 
   const removeItem = id => {
-    dispatch({ type: 'REMOVE_ITEM', payload: id });
+    dispatch({ type: 'REMOVE_ITEM', id });
   };
 
   const clearCart = () => {

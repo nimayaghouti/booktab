@@ -1,12 +1,9 @@
-import { useContext } from 'react';
 import Book from '../components/Book';
 import BookPlaceholder from '../components/BookPlaceholder';
 import useBookData from '../hooks/useBookData';
-import CartContext from '../store/CartContext';
 
 const Books = () => {
   const { books, error, loading } = useBookData();
-  const cartCtx = useContext(CartContext);
 
   if (loading) {
     return (
@@ -41,12 +38,6 @@ const Books = () => {
 
   return (
     <div className="container pt-4">
-      <button
-        onClick={() => cartCtx.clearCart()}
-        className="btn btn-outline-danger"
-      >
-        پاک کردن سبد
-      </button>
       <div className="row">
         {books.map(book => (
           <div

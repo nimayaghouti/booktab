@@ -1,14 +1,26 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
+import { useContext } from 'react';
 import { useLoaderData, json, Link } from 'react-router-dom';
+import CartContext from '../store/CartContext';
+
 import { FaArrowLeft } from 'react-icons/fa';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const BookDetail = () => {
   const data = useLoaderData();
+  const cartCtx = useContext(CartContext);
+
+  const addToCartHandler = () => {
+    cartCtx.addItem({
+      ...data,
+      quantity: 1,
+    });
+  };
 
   return (
     <>
-      <div className="container d-flex flex-column align-items-center">
+      <div className="container mb-4 d-flex flex-column align-items-center">
         <div
           className="w-100 my-2 d-flex justify-content-end"
           style={{ maxWidth: '992px' }}
@@ -29,7 +41,7 @@ const BookDetail = () => {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title text-primary">{data.title}</h5>
+                <h4 className="card-title">{data.title}</h4>
                 <div className="card-text mt-4">
                   <p className="text-primary">
                     <span className="text-muted">نویسنده:</span> {data.author}
@@ -51,6 +63,12 @@ const BookDetail = () => {
                     {data.price.toLocaleString('fa-IR')} تومان
                   </p>
                 </div>
+                <button
+                  className="btn btn-primary text-white"
+                  onClick={addToCartHandler}
+                >
+                  افزودن به سبد خرید <FaShoppingCart />
+                </button>
               </div>
             </div>
           </div>

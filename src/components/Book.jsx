@@ -12,14 +12,8 @@ const Book = ({ book }) => {
 
   const addToCartHandler = () => {
     cartCtx.addItem({
-      id: 1,
-      title: 'To Kill a Mockingbird',
-      author: 'Harper Lee',
-      publication_year: 1960,
-      genre: ['Fiction', 'Classic'],
-      description:
-        'A classic novel depicting racial injustice in the American South.',
-      cover_image: 'https://fakeimg.pl/667x1000/cc6600',
+      ...book,
+      quantity: 1,
     });
   };
 

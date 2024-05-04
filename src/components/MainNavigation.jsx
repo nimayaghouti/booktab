@@ -1,14 +1,26 @@
+import { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTheme } from '../store/ThemeContext';
+import CartContext from '../store/CartContext';
 
 // import classes from './MainNavigation.module.scss';
 import { BsMoonStarsFill } from 'react-icons/bs';
 import { IoMdSunny } from 'react-icons/io';
+import { BsCart3 } from 'react-icons/bs';
 import logo from '../assets/images/logo.png';
 
 function MainNavigation() {
   const { isDarkTheme, toggleTheme } = useTheme();
 
+  const cartCtx = useContext(CartContext);
+
+  const cartTotalCount = () => {
+    const totalQuantity = cartCtx.cart.reduce(
+      (total, { quantity }) => total + quantity,
+      0
+    );
+    return totalQuantity;
+  };
   return (
     <nav
       className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow p-1"
@@ -30,6 +42,25 @@ function MainNavigation() {
             <span className="fs-6 text-primary">BOOKTAB</span>
             <img src={logo} alt="Booktab Logo" width={50} />
           </NavLink>
+          <button
+            type="button"
+            className="btn btn-outline-primary order-lg-first ms-lg-5 position-relative"
+            data-bs-toggle="modal"
+            data-bs-target="#cartModal"
+          >
+            <span
+              className="position-absolute text-bg-success text-light rounded-circle"
+              style={{
+                width: '1.4rem',
+                height: '1.4rem',
+                top: '-7px',
+                right: '-7px',
+              }}
+            >
+              {cartTotalCount()}
+            </span>
+            <BsCart3 size={26} />
+          </button>
         </div>
         <div
           className="offcanvas offcanvas-end bg-dark"
