@@ -3,6 +3,11 @@ a:hover > .arrow {
   margin-right: 3px;
 }
 
+.header {
+  background: url(../src/assets/images/header.jpg) center center no-repeat;
+  background-size: cover;
+}
+
 @keyframes slide {
   0%,
   100% {
