@@ -1,5 +1,4 @@
 /* eslint-disable react-refresh/only-export-components */
-/* eslint-disable no-unused-vars */
 import { useLoaderData, json, Link } from 'react-router-dom';
 
 const Categories = () => {
@@ -13,7 +12,9 @@ const Categories = () => {
             className="col-xl-2 col-lg-3 col-md-3 col-sm-4 py-3 d-flex justify-content-center"
           >
             <div className="blob">
-              <h4>{genre.name}</h4>
+              <Link to={`/genres/${genre.name}`}>
+                <h4>{genre.name}</h4>
+              </Link>
             </div>
           </div>
         ))}
@@ -24,7 +25,7 @@ const Categories = () => {
 
 export default Categories;
 
-export async function loader({ request, params }) {
+export async function loader() {
   const response = await fetch('http://localhost:8001/genres');
 
   if (!response.ok) {

@@ -35,8 +35,22 @@ a:hover > .arrow {
   transform: rotate(-30deg);
 }
 
-.blob h4 {
+.blob a {
   position: absolute;
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  transition: 0.3s all;
+}
+
+.blob a:hover {
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.244));
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+body[data-bs-theme='dark'] .blob a {
+  color: white;
 }
 
 @keyframes slide {

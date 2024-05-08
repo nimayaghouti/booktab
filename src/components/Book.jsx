@@ -44,7 +44,7 @@ const Book = ({ book }) => {
         <h5 className="card-text">{book.author}</h5>
         <p className="card-text">{book.price.toLocaleString('fa-IR')} تومان</p>
         <div className="d-flex justify-content-between">
-          <Link to={book.id} className="btn btn-primary text-white">
+          <Link to={`/books/${book.id}`} className="btn btn-primary text-white">
             مشاهده
           </Link>
           <button

@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 import { useContext } from 'react';
-import { useLoaderData, json, Link } from 'react-router-dom';
+import { useLoaderData, useNavigate, json, Link } from 'react-router-dom';
 import CartContext from '../store/CartContext';
 
 import { FaArrowLeft } from 'react-icons/fa';
@@ -10,6 +10,13 @@ import { FaShoppingCart } from 'react-icons/fa';
 const BookDetail = () => {
   const data = useLoaderData();
   const cartCtx = useContext(CartContext);
+
+  const navigate = useNavigate();
+
+  // Handle the button click to go back
+  const handleGoBack = () => {
+    navigate(-1); // Navigate back one page in the history stack
+  };
 
   const addToCartHandler = () => {
     cartCtx.addItem({
@@ -25,7 +32,7 @@ const BookDetail = () => {
           className="w-100 my-2 d-flex justify-content-end"
           style={{ maxWidth: '992px' }}
         >
-          <Link to="/books" className="btn btn-outline-primary">
+          <Link onClick={handleGoBack} className="btn btn-outline-primary">
             بازگشت <FaArrowLeft className="arrow" />
           </Link>
         </div>
