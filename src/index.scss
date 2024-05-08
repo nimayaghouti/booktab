@@ -8,6 +8,37 @@ a:hover > .arrow {
   background-size: cover;
 }
 
+.blob {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+  background-color: #5496a770;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob::before {
+  z-index: -1;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  content: '';
+  width: 10rem;
+  height: 10rem;
+  border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+  background-color: rgba(65, 105, 225, 0.368);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-30deg);
+}
+
+.blob h4 {
+  position: absolute;
+}
+
 @keyframes slide {
   0%,
   100% {

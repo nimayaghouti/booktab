@@ -89,7 +89,7 @@ function MainNavigation() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/categories"
+                to="/genres"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
