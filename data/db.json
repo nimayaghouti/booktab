@@ -7,7 +7,7 @@
       "publication_year": 1960,
       "genre": ["داستانی", "کلاسیک"],
       "description": "رمانی کلاسیک که بی عدالتی نژادی را در جنوب آمریکا به تصویر می کشد.",
-      "cover_image": "/cover/to-kill-a-mockingbird.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/to-kill-a-mockingbird.jpg",
       "price": 292000
     },
     {
@@ -17,7 +17,7 @@
       "publication_year": 1949,
       "genre": ["پادآرمان‌شهری", "علمی تخیلی"],
       "description": "یک داستان تخیلی که نشان می‌دهد چگونه یک جامعه کنترل‌شده به طور کامل توسط حکومت یا نظامی خاص توصیف می‌شود.",
-      "cover_image": "/cover/1984.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/1984.jpg",
       "price": 160000
     },
     {
@@ -27,7 +27,7 @@
       "publication_year": 1813,
       "genre": ["کلاسیک", "عاشقانه"],
       "description": "رمانی کلاسیک که مضامین عشق، ازدواج و هنجارهای اجتماعی را بررسی می کند.",
-      "cover_image": "/cover/pride-and-prejudice.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/pride-and-prejudice.jpg",
       "price": 150000
     },
     {
@@ -37,7 +37,7 @@
       "publication_year": 1925,
       "genre": ["داستانی", "کلاسیک"],
       "description": "داستانی از رویای آمریکایی، ثروت، و عشق در طول دهه بیست میلادی.",
-      "cover_image": "/cover/the-great-gatsby.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-great-gatsby.jpg",
       "price": 162000
     },
     {
@@ -47,7 +47,7 @@
       "publication_year": 1851,
       "genre": ["داستانی", "ماجراجویی"],
       "description": "داستان ملواني به نام اسماعیل كه مي‌خواهد از يك نهنگ سفيد انتقام بگيرد.",
-      "cover_image": "/cover/moby-dick.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/moby-dick.jpg",
       "price": 146000
     },
     {
@@ -57,7 +57,7 @@
       "publication_year": 1954,
       "genre": ["فانتری", "ماجراجویی"],
       "description": "یک حماسه فانتزی در مورد تلاش برای از بین بردن یک حلقه.",
-      "cover_image": "/cover/the-lord-of-the-rings.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-lord-of-the-rings.jpg",
       "price": 330000
     },
     {
@@ -67,7 +67,7 @@
       "publication_year": 1937,
       "genre": ["فانتری", "ماجراجویی"],
       "description": "پیش درآمد ارباب حلقه ها، که به سفر بیلبو بگینز می پردازد.",
-      "cover_image": "/cover/the-hobbit.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-hobbit.jpg",
       "price": 180000
     },
     {
@@ -77,7 +77,7 @@
       "publication_year": 1869,
       "genre": ["داستانی تاریخی", "حماسی"],
       "description": "اثری به یاد ماندنی که وقایع جامعه روسیه در دوران ناپلئون را به تصویر می کشد.",
-      "cover_image": "/cover/war-and-peace.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/war-and-peace.jpg",
       "price": 500000
     },
     {
@@ -87,7 +87,7 @@
       "publication_year": "قرن هشتم قبل از میلاد",
       "genre": ["حماسی", "اساطیری"],
       "description": "ادبیات حماسی یونان باستان که سفر ده ساله ادیسه را به خانه پس از جنگ تروا بازگو می کند.",
-      "cover_image": "/cover/odyssey.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/odyssey.jpg",
       "price": 284000
     },
     {
@@ -97,7 +97,7 @@
       "publication_year": 1880,
       "genre": ["کلاسیک", "فلسفی"],
       "description": "رمانی پیچیده که مضامین معنویت، اخلاق و طبیعت انسانی را بررسی می کند.",
-      "cover_image": "/cover/the-brothers-karamazov.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-brothers-karamazov.jpg",
       "price": 617000
     },
     {
@@ -107,7 +107,7 @@
       "publication_year": 1866,
       "genre": ["کلاسیک", "روانشناختی"],
       "description": "یک تریلر روانشناختی حول محور گناه، وجدان و رستگاری.",
-      "cover_image": "/cover/crime-and-punishment.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/crime-and-punishment.jpg",
       "price": 470000
     },
     {
@@ -117,7 +117,7 @@
       "publication_year": 1890,
       "genre": ["گوتیک", "فلسفی"],
       "description": "رمانی درباره مردی که پرتره‌اش پیر می‌شود و جوانی و زیبایی‌اش را حفظ می‌کند.",
-      "cover_image": "/cover/the-picture-of-dorian-gray.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-picture-of-dorian-gray.jpg",
       "price": 229500
     },
     {
@@ -127,7 +127,7 @@
       "publication_year": 1932,
       "genre": ["پادآرمان‌شهری", "علمی تخیلی"],
       "description": "چشم اندازی پادآرمان‌شهری از جامعه ای در آینده که احساسات انسان‌ها را کنترل می‌کند و هرگونه احساس منفی را ممنوع می‌کند.",
-      "cover_image": "/cover/brave-new-world.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/brave-new-world.jpg",
       "price": 156000
     },
     {
@@ -137,7 +137,7 @@
       "publication_year": 1844,
       "genre": ["ماجراجویی", "داستانی تاریخی"],
       "description": "رمانی ماجراجویی از انتقام، عشق و رستگاری که در اوایل قرن نوزدهم اتفاق می‌افتد.",
-      "cover_image": "/cover/the-conut-of-monte-cristo.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-conut-of-monte-cristo.jpg",
       "price": 165000
     },
     {
@@ -147,7 +147,7 @@
       "publication_year": 1877,
       "genre": ["کلاسیک", "عاشقانه"],
       "description": "یک داستان عاشقانه غم انگیز در پس زمینه جامعه عالی روسیه.",
-      "cover_image": "/cover/anna-karenina.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/anna-karenina.jpg",
       "price": 446000
     },
     {
@@ -157,7 +157,7 @@
       "publication_year": 1988,
       "genre": ["داستانی", "فلسفی"],
       "description": "رمانی فلسفی درباره سفر یک پسر چوپان برای یافتن افسانه شخصی اش.",
-      "cover_image": "/cover/the-alchemist.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-alchemist.jpg",
       "price": 209000
     },
     {
@@ -167,7 +167,7 @@
       "publication_year": 1884,
       "genre": ["ماجراجویی", "هجو"],
       "description": "رمانی طنز که به سفر هاک فین به پایین رودخانه می سی سی پی می پردازد.",
-      "cover_image": "/cover/the-adventures-of-huckleberry-finn.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-adventures-of-huckleberry-finn.jpg",
       "price": 246000
     },
     {
@@ -177,7 +177,7 @@
       "publication_year": "قرن هشتم قبل از میلاد",
       "genre": ["حماسی", "اساطیری"],
       "description": "شعری حماسی از یونان باستان در مورد جنگ تروا و قهرمان آشیل.",
-      "cover_image": "/cover/iliad.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/iliad.jpg",
       "price": 403000
     },
     {
@@ -187,7 +187,7 @@
       "publication_year": 1605,
       "genre": ["کلاسیک", "هجو"],
       "description": "رمانی طنز درباره یک شوالیه فریب خورده و صاحب وفادارش، سانچو پانزا.",
-      "cover_image": "/cover/don-quixote.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/don-quixote.jpg",
       "price": 189000
     },
     {
@@ -197,7 +197,7 @@
       "publication_year": 1818,
       "genre": ["گوتیک", "علمی تخیلی"],
       "description": "رمانی درباره خلق یک هیولا و عواقب دخالت در کار خدا.",
-      "cover_image": "/cover/frankenstein.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/frankenstein.jpg",
       "price": 102000
     },
     {
@@ -207,7 +207,7 @@
       "publication_year": 1865,
       "genre": ["فانتری", "ادبیات کودکان"],
       "description": "داستانی عجیب در مورد دختری به نام آلیس که وارد دنیایی جادویی می شود.",
-      "cover_image": "/cover/alice’s-adventures-in-wonderland.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/alice’s-adventures-in-wonderland.jpg",
       "price": 85500
     },
     {
@@ -217,7 +217,7 @@
       "publication_year": 2005,
       "genre": ["داستانی تاریخی", "جنگ"],
       "description": "داستانی به روایت مرگ، از دختری که در آلمان نازی زندگی می کند.",
-      "cover_image": "/cover/the-book-thief.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-book-thief.jpg",
       "price": 250000
     },
     {
@@ -227,7 +227,7 @@
       "publication_year": 1969,
       "genre": ["هجو", "علمی تخیلی"],
       "description": "رمانی ضد جنگ که داستان علمی تخیلی و طنز سیاه را در هم می آمیزد.",
-      "cover_image": "/cover/slaughterhouse-five.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/slaughterhouse-five.jpg",
       "price": 126000
     },
     {
@@ -237,7 +237,7 @@
       "publication_year": 1953,
       "genre": ["پادآرمان‌شهری", "علمی تخیلی"],
       "description": "رمانی پادآرمان‌شهری که جامعه ای در آینده را به تصویر می کشد که در آن کتاب ممنوع است.",
-      "cover_image": "/cover/fahrenheit-451.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/fahrenheit-451.jpg",
       "price": 122000
     },
     {
@@ -247,7 +247,7 @@
       "publication_year": 1954,
       "genre": ["پادآرمان‌شهری", "روانشناختی"],
       "description": "رمانی درباره گروهی از پسران بریتانیایی که در جزیره‌ای خالی از سکنه سرگردان شده‌اند.",
-      "cover_image": "/cover/lord-of-the-flies.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/lord-of-the-flies.jpg",
       "price": 220000
     },
     {
@@ -257,7 +257,7 @@
       "publication_year": 1979,
       "genre": ["علمی تخیلی", "کمدی"],
       "description": "مجموعه ای علمی تخیلی کمدی درباره ماجراجویی های ناگوار آرتور دنت",
-      "cover_image": "/cover/the-hitchhiker-s-guide-to-the-galaxy.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-hitchhiker-s-guide-to-the-galaxy.jpg",
       "price": 162000
     },
     {
@@ -267,7 +267,7 @@
       "publication_year": 1859,
       "genre": ["داستانی تاریخی", "کلاسیک"],
       "description": "رمانی تاریخی که در جریان انقلاب فرانسه اتفاق می‌افتد و مضامین فداکاری و رستاخیز را بررسی می‌کند.",
-      "cover_image": "/cover/a-tale-of-two-cities.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/a-tale-of-two-cities.jpg",
       "price": 170000
     },
     {
@@ -277,7 +277,7 @@
       "publication_year": 1950,
       "genre": ["فانتری", "ادبیات کودکان"],
       "description": "مجموعه ای از رمان های فانتزی در سرزمین جادویی نارنیا.",
-      "cover_image": "/cover/the-chronicles-of-narnia.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-chronicles-of-narnia.jpg",
       "price": 675000
     },
     {
@@ -287,7 +287,7 @@
       "publication_year": 1980,
       "genre": ["داستانی تاریخی", "رازآلود"],
       "description": "رمان معمایی قرون وسطایی که در یک صومعه ایتالیایی اتفاق می افتد.",
-      "cover_image": "/cover/the-name-of-the-rose.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-name-of-the-rose.jpg",
       "price": 405000
     },
     {
@@ -297,7 +297,7 @@
       "publication_year": 2003,
       "genre": ["داستانی تاریخی", "درام"],
       "description": "رمانی درباره دوستی، رستگاری و تأثیر جنگ در افغانستان.",
-      "cover_image": "/cover/the-kite-runner.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-kite-runner.jpg",
       "price": 199500
     },
     {
@@ -307,7 +307,7 @@
       "publication_year": 1989,
       "genre": ["داستانی تاریخی", "ماجراجویی"],
       "description": "رمان تاریخی حماسی در قرن دوازدهم انگلستان، حول محور ساختن یک کلیسای جامع.",
-      "cover_image": "/cover/the-pillars-of-the-earth.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-pillars-of-the-earth.jpg",
       "price": 81000
     },
     {
@@ -317,7 +317,7 @@
       "publication_year": 2001,
       "genre": ["رازآلود", "گوتیک"],
       "description": "رمانی رازآلود که در بارسلون پس از جنگ اتفاق می افتد و حول محور کتابی فراموش شده و نویسنده آن می چرخد.",
-      "cover_image": "/cover/the-shadow-of-the-wind.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-shadow-of-the-wind.jpg",
       "price": 522000
     },
     {
@@ -327,7 +327,7 @@
       "publication_year": 1936,
       "genre": ["داستانی تاریخی", "عاشقانه"],
       "description": "رمانی تاریخی در طول جنگ داخلی آمریکا، حول محور اسکارلت اوهارا.",
-      "cover_image": "/cover/gone-with-the-wind.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/gone-with-the-wind.jpg",
       "price": 765000
     },
     {
@@ -337,7 +337,7 @@
       "publication_year": 1897,
       "genre": ["گوتیک", "ترسناک"],
       "description": "یک رمان ترسناک گوتیک درباره تلاش کنت دراکولا خون آشام برای نقل مکان به انگلستان.",
-      "cover_image": "/cover/dracula.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/dracula.jpg",
       "price": 405000
     },
     {
@@ -347,7 +347,7 @@
       "publication_year": 1978,
       "genre": ["ترسناک", "پساآخرالزمانی"],
       "description": "یک رمان ترسناک پسا آخرالزمانی درباره یک بیماری همه گیر مرگبار و عواقب آن.",
-      "cover_image": "/cover/the-stand.jpg",
+      "cover_image": "https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/public/cover/the-stand.jpg",
       "price": 250000
     }
   ],
