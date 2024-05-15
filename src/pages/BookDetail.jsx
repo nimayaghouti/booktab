@@ -88,13 +88,21 @@ const BookDetail = () => {
 export default BookDetail;
 
 export async function loader({ request, params }) {
-  const id = params.bookId;
+  const id = Number(params.bookId);
 
-  const response = await fetch('http://localhost:8001/books/' + id);
+  const response = await fetch(
+    'https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/db.json'
+  );
 
   if (!response.ok) {
     throw json({ message: 'صفحه مورد نظر یافت نشد' }, { status: 500 });
   } else {
-    return response;
+    const data = await response.json();
+    const book = data.books.find(book => book.id === id);
+    if (!book) {
+      throw json({ message: 'کتاب مورد نظر یافت نشد' }, { status: 404 });
+    }
+
+    return book;
   }
 }

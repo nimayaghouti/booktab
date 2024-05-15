@@ -9,12 +9,14 @@ const useBookData = () => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://localhost:8001/books');
+        const response = await fetch(
+          'https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/db.json'
+        );
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
         const data = await response.json();
-        setBooks(data);
+        setBooks(data.books);
         setLoading(false);
       } catch (error) {
         setError(error);

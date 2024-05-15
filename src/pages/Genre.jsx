@@ -9,7 +9,7 @@ const Genre = () => {
   const { genre } = useParams();
   const data = useLoaderData();
 
-  const genreBooks = data.filter(book => book.genre.includes(genre));
+  const genreBooks = data.books.filter(book => book.genre.includes(genre));
 
   return (
     <div className="container pt-4">
@@ -34,12 +34,15 @@ const Genre = () => {
 
 export default Genre;
 
-export async function loader({ request, params }) {
-  const response = await fetch('http://localhost:8001/books');
+export async function loader() {
+  const response = await fetch(
+    'https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/db.json'
+  );
 
   if (!response.ok) {
     throw json({ message: 'صفحه مورد نظر یافت نشد' }, { status: 500 });
   } else {
-    return response;
+    const data = await response.json(); // Parse the JSON response
+    return data;
   }
 }

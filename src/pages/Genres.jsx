@@ -6,7 +6,7 @@ const Categories = () => {
   return (
     <div className="container py-5">
       <div className="row overflow-hidden">
-        {data.map(genre => (
+        {data.genres.map(genre => (
           <div
             key={genre.id}
             className="col-xl-2 col-lg-3 col-md-3 col-sm-4 py-3 d-flex justify-content-center"
@@ -26,11 +26,14 @@ const Categories = () => {
 export default Categories;
 
 export async function loader() {
-  const response = await fetch('http://localhost:8001/genres');
+  const response = await fetch(
+    'https://raw.githubusercontent.com/nimayaghouti/booktabdata/main/db.json'
+  );
 
   if (!response.ok) {
     throw json({ message: 'صفحه مورد نظر یافت نشد' }, { status: 500 });
   } else {
-    return response;
+    const data = await response.json(); // Parse the JSON response
+    return data;
   }
 }
