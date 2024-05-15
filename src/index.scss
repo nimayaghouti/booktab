@@ -6,6 +6,8 @@ a:hover > .arrow {
 .header {
   background: url(../src/assets/images/header.jpg) center center no-repeat;
   background-size: cover;
+  position: relative;
+  min-height: 25rem;
 }
 
 .blob {

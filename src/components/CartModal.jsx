@@ -98,7 +98,11 @@ const CartModal = () => {
             >
               بستن
             </button>
-            <button type="button" className="btn btn-primary text-white">
+            <button
+              type="button"
+              className="btn btn-primary text-white"
+              disabled
+            >
               ثبت سفارش
             </button>
           </div>

@@ -10,7 +10,7 @@ function WaveSVG() {
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="none"
       viewBox="0 0 1920 192.275"
-      style={{ marginBottom: '-3rem' }}
+      style={{ position: 'absolute', bottom: '-3px' }}
     >
       <defs>
         <style>
